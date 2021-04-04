@@ -8,7 +8,8 @@
     "build": "rimraf dist; cd library; bili -c bili.config.js --plugins.vue && cd .. && copyfiles package.json README.md dist/",
     "toc": "markdown-toc --maxdepth 4 -i README.md",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "npm run build"
   },
   "main": "oarepo-vue-popup-login.esm.js",
   "dependencies": {

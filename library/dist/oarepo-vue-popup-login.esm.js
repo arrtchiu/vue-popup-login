@@ -1,4 +1,5 @@
 import { reactive, ref } from '@vue/composition-api';
+import { BroadcastChannel } from 'broadcast-channel';
 import axios from 'axios';
 import { isMatch } from 'lodash';
 import __vue_normalize__ from 'vue-runtime-helpers/dist/normalize-component.mjs';

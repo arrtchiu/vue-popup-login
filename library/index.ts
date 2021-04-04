@@ -1,4 +1,5 @@
 import _Vue from 'vue';
+import { BroadcastChannel } from 'broadcast-channel';
 import {normalizeUrl} from './url';
 import {reactive, Ref, ref} from '@vue/composition-api';
 import {

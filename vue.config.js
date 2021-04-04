@@ -1,4 +1,5 @@
 const path = require('path')
+import { BroadcastChannel } from 'broadcast-channel';
 
 const state = {
     authState: {
